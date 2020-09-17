@@ -6,7 +6,6 @@ public class TrieNode {
 
     char data;
     HashMap<Character , TrieNode> children;
-    String meaning = null;
     boolean isTerminating = false;
 
     TrieNode(char data){

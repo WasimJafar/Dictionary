@@ -21,10 +21,9 @@ public class DictionaryWords {
             BufferedReader reader = new BufferedReader(new InputStreamReader(file));
             String line = reader.readLine();
             while(line != null){
-                Log.d("StackOverflow", line);
+//                Log.d("StackOverflow", line);
                 String word = line.split(":")[0];
-                String meaning = line.split(":")[1];
-                manager.addWordsToTrieNode(root , word , meaning);
+                manager.addWordsToTrieNode(root , word );
                 line = reader.readLine();
             }
 

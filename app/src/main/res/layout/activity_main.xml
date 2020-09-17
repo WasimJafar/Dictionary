@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/color_white"
     android:layout_height="match_parent">
 
     <EditText
@@ -15,8 +15,8 @@
         android:singleLine="true"
         android:paddingLeft="10dp"
         android:hint="Search"
-        android:drawablePadding="15dp" />
-
+        android:drawablePadding="15dp"
+        android:background="@drawable/edittext_shadow"/>
 
     <ListView
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
         android:layout_centerInParent="true"
         android:id="@+id/loader"
         app:arc_style="simple_arc"
-        android:visibility="gone"/>
+        android:visibility="visible"/>
 
 
 

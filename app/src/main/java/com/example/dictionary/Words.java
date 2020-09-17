@@ -2,7 +2,6 @@ package com.example.dictionary;
 
 
 import java.io.InputStream;
-import java.util.ArrayList;
 
 public class Words {
     String word , meaning;
@@ -15,11 +14,6 @@ public class Words {
     public String getWord() {
         return word;
     }
-
-    public String getMeaning() {
-        return meaning;
-    }
-
 
     public void addToTrieWords(TrieManager manager , InputStream file){
 
